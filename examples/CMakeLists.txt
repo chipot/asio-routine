@@ -35,3 +35,10 @@ add_executable(signal
 target_link_libraries(signal
   asio-routine
 )
+
+add_executable(hello
+	hello.cc
+)
+target_link_libraries(hello
+  asio-routine
+)
